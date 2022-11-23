@@ -1,0 +1,14 @@
+@import "_config/var";
+@import "_config/fonts";
+@import "_mixins/bgi";
+@import "_mixins/flex";
+@import "_mixins/media";
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+
+@import "libs/*.scss";
+@import "style/*.scss";
